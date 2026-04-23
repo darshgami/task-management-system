@@ -1,33 +1,46 @@
-Employee Task Management System
-📌 Description
+# Task Management System
+### A simple Task Management System built with PHP, MySQL, and XAMPP that allows users (admin and employees) to manage tasks, assign roles, track task progress, and receive notifications.
 
-This is a simple Employee Task Management System built using HTML, CSS, JavaScript, and PHP.
-It helps manage employee tasks, assign work, and track progress easily.
 
-🚀 Features
-Add new tasks
-Assign tasks to employees
-Update task status
-View all tasks
-Simple and user-friendly interface
-🛠️ Technologies Used
-Frontend: HTML, CSS, JavaScript
-Backend: PHP
-Database: MySQL
-📂 Project Structure
-/frontend → HTML, CSS, JS files
-/backend → PHP files
-/database → SQL file
-⚙️ Setup Instructions
-Download or clone the repository
-Place the project in htdocs (XAMPP)
-Start Apache and MySQL
-Import the SQL file into phpMyAdmin
-Run the project in browser
-🎯 Purpose
+## Full Tutorial
 
-This project is created for learning and basic task management functionality.
+[On Youtube](https://www.youtube.com/playlist?list=PL2WFgdVk-usHC-HHC0SkpsmHquwHB0Aiy)
 
-👨‍💻 Author
+## DEMO
 
-Darsh Patel
+[DEMO](https://youtu.be/Ff3ug0eqrWI)
+
+## Features
+
++ User Role Management: Supports two roles - Admin and Employee.
++ Task Management: Create, update, delete, and view tasks.
++ Task Categorization: Filter tasks by status, and due date.
++ Authentication and Authorization: Secure login system with role-based access control.
++ Notifications: Notify users of assigned tasks and important updates.
++ Task Filtering: Filter tasks by priority, status, deadline.
++ Task Deadlines: Track due dates and overdue tasks.
+
+## Requirements
+
++ XAMPP (PHP, MySQL, Apache)
++ PHP 7.4 or higher
++ MySQL 5.7 or higher
+
+## Login Credentials:
+
+### Default Admin User:
+
++ Username: admin
++ Password: 123
+### Default Employee User:
+
++ Username: john 
++ Password: 123
+
+## Contributing
+
+If you'd like to contribute, please fork the repository and submit a pull request. Any contributions are welcome.
+
+## License
+
+This project is open-source and available under the MIT License.
